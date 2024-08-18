@@ -1,0 +1,34 @@
+{
+    "pastspeaker":[
+        {
+        "img": "./data/img/speakers/amandhattarwal.jpg",
+        "name": "Aman Dhattarwal",
+        "data": "Founder Apni Kaksha"
+        },
+        {
+        "img": "./data/img/speakers/manandixit.jpg",
+        "name": "Manan Dixit",
+        "data": "Founder FIDY PAY"
+        },
+        {
+        "img": "./data/img/speakers/sandeepjain.jpeg",
+        "name": "Sandeep Jain",
+        "data": "Founder Geeks For Geeks"
+        },
+        {
+            "img": "./data/img/speakers/mayankpratap.jpg",
+            "name": "Mayank Pratap",
+            "data": "Founder SuperSourcing"
+        },
+        {
+            "img": "./data/img/speakers/shashanksharma.jpg",
+            "name": "Shashank Sharma",
+            "data": "Founder The Tea Factory"
+        },
+        {
+            "img": "./data/img/speakers/shreysharma.jpeg",
+            "name": "Shrey Sharma",
+            "data": "Founder Newzera"
+        }
+    ]
+}

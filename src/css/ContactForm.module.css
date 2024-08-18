@@ -1,0 +1,172 @@
+/* ContactForm.module.css */
+
+
+.headingContainer {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 4%;
+  color: white;
+  font-size: 2rem;
+}
+
+.contactForm {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 3%;
+  padding-bottom: 5%;
+  width: 137%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  border-color: #CAC2C2;
+  border-width: 0.3px;
+
+}
+
+.customBackgroundColor {
+  background-color: rgba(255, 255, 255, 0.0);
+  /* Replace with the desired background color */
+  border: none;
+  outline: none;
+  /* Remove the outline */
+  color: white;
+  /* Set text color to white */
+  width: 90%;
+  /* Set the width to 100% */
+
+  /* Set placeholder color to white */
+  &::placeholder {
+    color: white;
+    font-size: 1.2rem;
+    /* padding-left: 33%; */
+    font-family: Nunito Sans;
+  }
+
+  /* Add initial state for border */
+  border-bottom: 2px solid white;
+
+  transition: border-bottom 0.3s ease-in-out;
+
+  &:focus {
+    border-bottom: 2px solid #7056D9;
+  }
+}
+  .customBackgroundColor {
+    background-color: rgba(255, 255, 255, 0.0); /* Replace with the desired background color */
+    border: none;
+    outline: none; /* Remove the outline */
+    color: white; /* Set text color to white */
+    width: 90%; /* Set the width to 100% */
+    font-family: Nunito Sans;
+    
+    /* Set placeholder color to white */
+    &::placeholder {
+      color: white;
+      font-family: Nunito Sans, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    /* Add initial state for border */
+    border-bottom: 2px solid white;
+    
+    transition: border-bottom 0.3s ease-in-out;
+  
+    &:focus {
+      border-bottom: 2px solid #7056D9;
+    }
+  
+    /* Animate border color on hover */
+    &:hover {
+      border-bottom: 2px solid #7056D9;
+    }
+  }
+  
+  
+  .formRow {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+  
+  .col-6 {
+    width: 50%;
+    padding-right: 10px; /* Add some spacing between inputs */
+    flex: 1; /* Allow elements to take up equal space within the row */
+  }
+  .col-12 {
+    width: 150%;
+    flex: 1;
+    
+     /* Allow elements to take up equal space within the row */
+  }
+  .submitBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3%; /* Adjust margin-top for spacing */
+    padding-right: 7%;
+  }
+  
+  .submitBtn {
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Nunito Sans;
+  
+  }
+  
+  .submitBtn:hover {
+    background-color: #7056D9;/* Change background color on hover */
+  }
+  @media (max-width: 768px) {
+    .ContactForm {
+    min-height: 50vh;
+  }
+
+  .contactForm {
+    width: 180%;
+    /* Adjust the width for smaller screens */
+  }
+
+
+  .formRow {
+    flex-direction: column;
+    /* Stack inputs vertically on smaller screens */
+  }
+
+  .col-6 {
+    width: 100%;
+    /* Full width for columns on small screens */
+    padding-right: 10%;
+    margin-bottom: 6%;
+    /* Remove right padding */
+    /* Add spacing between input rows */
+  }
+
+  .col-12 {
+    width: 100%;
+
+  }
+
+  .submitBtnContainer {
+    margin-top: 3%;
+    /* Adjust margin-top for spacing */
+  }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+
+
+  .contactForm {
+    width: 250%;
+    /* Adjust the width for smaller screens */
+  }
+
+
+ 
+}
+

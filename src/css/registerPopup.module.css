@@ -1,0 +1,40 @@
+.button {
+    z-index: 48;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    text-align: center;
+    color: #B798AC;
+    background: linear-gradient(90deg, rgba(177, 64, 200, 0.7) 0%,
+            rgba(109, 9, 121, 0.7) 35%, rgba(45, 1, 62, 0.7) 100%);
+
+    padding: 0.5% 1.5%;
+    border: 3px solid #70569D;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #70569D;
+}
+
+.glow {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+            0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+
+    to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+            0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}

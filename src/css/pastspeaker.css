@@ -1,0 +1,64 @@
+.title3{
+    color :#CB77FF;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin: 5% 0;
+}
+.background{
+    background-size: cover;
+}
+.grad{
+    background: linear-gradient(128deg,#210C4E,#40044A,#310C4E,#210C4E,#40044A,#290C4E
+    );
+}
+@media  (max-width : 700px){
+    .card{
+        height:62vh;
+    } 
+}
+@media  (min-width:700px) and (max-width : 1000px){
+    .card{
+        height:38vh;
+        width:34vw;
+    } 
+}
+
+@media  (min-width : 1250px) {
+    .card{
+        height:50vh;
+        width:20vw;
+    } 
+}
+
+@media  (max-width : 1250px) and (min-width:1000px){
+    .card{
+        height:52vh;
+        width:21vw;
+    } 
+    .divcontainer{
+        padding-left: 0;
+    }
+}
+@media  (max-width : 500px){
+    .card{
+        height:53vh;
+        width:70vw;
+    } 
+
+    .title3{
+        font-size: 3.5rem;
+    }
+}
+@media  (max-width : 300px){
+    .card{
+        height:40vh;
+        width:60vw;
+        border: 1px solid white;
+    } 
+}

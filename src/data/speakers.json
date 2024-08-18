@@ -1,0 +1,42 @@
+{
+    "speakers":[
+        {
+        "img": "./data/img/current_speakers/tanu jain_2.png",
+        "name": "Dr Tanu Jain",
+        "founder": "Ex-Civil Servant & Founder of Tathastu ICS",
+        "data": "Dr. Tanu Jain, the founder of the Institute of Civil Services, holds a dentistry degree and served in the government for over seven years, even obtaining an LLB degree. She has authored books for civil service exam prep and recently founded her institute to prepare students for civil services exams, alongside teaching Indian philosophy and policy science. Driven by a commitment to societal improvement, her goal is to nurture individuals dedicated to family, society, and the nation."
+        },
+        {
+        "img": "./data/img/current_speakers/shradhakhapra.png",
+        "name": "Mrs Shradha Khapra",
+        "founder": "Founder of Apni Kaksha",
+        "data": "Shradha Khapra, the co-founder of apna college and an educational content creator. She runs a Apna College Channel on YouTube, where she teaches 4.31 million + students about Software Engineer life, Interview preparation, placements, and entrepreneurship life. She has worked on few projects and served as intern for Microsoft, IDC and DRDO. She was research trainee at DRDO in 2019."
+        },
+        {
+        "img": "./data/img/current_speakers/ShwaryaMehrotra.png",
+        "name": "Mr Shawrya Mehrotra ",
+        "founder": "Founder & CEO of Metvy",
+        "data": "Shawrya Mehrotra, the founder and CEO of Metvy, had a career that included roles at prominent companies  such as Ogilvy, SproutBox, and Enactus before founding Metvy. He is a frequent public speaker who has conducted over a hundred speeches, workshops, and guest lectures for organizations like IIT-Madras, Delhi University. Shawrya is deeply passionate about branding and has interned with Ogilvy, in addition to working with various startups and young ventures."
+        },
+        {
+            "img": "./data/img/current_speakers/AdityaBanerjee.png",
+            "name": "Mr Aditya Banerjee ",
+            "founder": "Founder & Director of VOLC & E-Scoot Rental Solutions",
+            "data": "Mr Aditya Banerjee, founder @VOLC and E-SCOOT! He is a visionary leader with over 12 years of diverse business experience, and several laurels to his credit. He has been acknowledged  by the Outlook Business Icon Awards and  ET GLOBAL Indian Leaders Award for his exceptional leadership skills, carving his niche among the industry forerunners."
+        },
+        
+        {
+        "img": "./data/img/current_speakers/Rahul_Bhargava.png",
+        "name": "Mr Rahul BHARGAVA ",
+        "founder": "Founder of SheKunj & MD of RDV Group",
+        "data": "Mr. Rahul Bhargava is the Founder of Shekunj and MD of RDV Group, a platform empowering women that has helped 80,000 women with free courses, counseling, and support"
+        },
+        {
+        "img": "./data/img/current_speakers/NarendraSen.png",
+        "name": "Mr Narendra Sen",
+        "founder": "Founder & CEO of Rackbank",
+        "data": "Mr. Narendra Sen is the Founder and CEO of RackBank Datacenters. RackBank is the fastest-growing Data Center in India, providing high-performance dedicated Servers, DRaaS, and Collocation Services."
+        }       
+
+    ]
+}

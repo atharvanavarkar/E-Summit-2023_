@@ -1,0 +1,81 @@
+.galleryContainer {
+  margin: 15% 30%;
+  display: flex;
+ 
+ /* Set the background color to black */
+}
+
+  .photoFrameWrapper {
+    position: relative;
+    margin-right: -180px; /* Adjust the overlap amount as needed */
+  }
+  
+  .photoFrameWrapper:last-child {
+    margin-right: 0; /* Remove margin from the last photo frame */
+  }
+/* Grid layout styles */
+.gridLayout .galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.gridLayout .photoFrameWrapper {
+  width: calc(80% - 1%);
+  margin-bottom: 8%;
+  margin-top: 8%;
+  margin-left: 10%;
+  
+}
+
+.gridLayout {
+  display: grid;
+  grid-gap: 0%;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #0a0917;
+  /* background: -webkit-linear-gradient(128deg, #000000 0%, #06063d 50%, #781aaf 100%);
+  background: linear-gradient(128deg, #000000 0%, #06063d 50%, #781aaf 100%); */
+
+
+
+
+ 
+  
+  
+  @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 414px) {
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+}
+.heading {
+  text-align: center;
+  background: -webkit-linear-gradient(128deg, #000000 0%, #06063d 100%);
+  background: linear-gradient(128deg, #000000 0%, #06063d 100%);
+
+
+
+  padding-top:80px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  
+}
+
+.heading h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color:white; /* Adjust the color as needed */
+  margin: 0;
+}
+.heading h2 {
+  font-size: 32px;
+  
+  color: rgba(189, 155, 253, 1);
+  /* Adjust the color as needed */
+  margin: 0;
+}
+

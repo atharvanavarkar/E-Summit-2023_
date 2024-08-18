@@ -1,0 +1,18 @@
+.backgrounds{
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+   padding-left: 12%;
+   font-size: x-large;
+   font-family: Nunito Sans;
+}
+.data{
+    font-size: x-large;
+    font-family: Nunito Sans;
+}

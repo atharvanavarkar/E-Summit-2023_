@@ -1,0 +1,56 @@
+.red-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .SponsorCard.hovered .red-line {
+    transform: scaleX(1);
+  }
+  body{
+    background-color: #310e68;
+    background: linear-gradient(128deg, #000000 0%, #06063d 50%, #781aaf 100%);
+
+    height:100%
+  }
+  .grads{
+    /* background-color: #310e68;
+background-image: linear-gradient(145deg, #310e68 0%, #5f0f40 67%,
+#0B7A82 ); */
+/* background: linear-gradient(128deg,#210C4E,#40044A,#310C4E,#210C4E,#40044A,#290C4E); */
+    height:100%
+  }
+
+  
+/* @keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }; */
+  /* .theme_img { */
+    /* position: absolute; */
+    /* left: 10%;
+    width: 12%; */
+    /* opacity: 0.5; */
+    /* height: 60%;
+    width:60%;
+  } */
+  /* .hello{
+    background-image:url('../images/sponsors/bg7.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+  } */
+  

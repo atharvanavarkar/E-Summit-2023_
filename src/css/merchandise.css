@@ -1,0 +1,196 @@
+.merchandise{
+    background: #000000;
+    background: -webkit-linear-gradient(18deg, #0C2D61 0%, #010715 50%, #8F0D85 90%, black 100%);
+    background: linear-gradient(125deg, #010715 0%,#0C2D61 30%, #8F0D85 50%, #010715 80%, black 100%);
+}
+.merch_title{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+}
+.merch_title span{
+    color: #9747FF;
+}
+.merch_link:hover{
+    text-decoration: underline;
+    color: white;
+}
+@media (max-width : 600px){
+    .merch_title{
+        font-size: 2.5rem;
+    }
+}
+.merch_btn{
+    margin: 10px auto;
+    background-color: #550CDF;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.btn_div{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.shirts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.merch{
+   margin: 20px;
+    width: 40%;
+    height: 80vh;
+}
+.m_img1{
+    position: absolute;
+    width: 25%;
+    transform: translateY(15%);
+    z-index: 2;
+    margin-left: 5%;
+    height: auto;
+}
+.m_img2{
+    position: absolute;
+    width: 23%;
+    transform: translateX(30%);
+    z-index: 1;
+    margin-left: 5%;
+    height: auto;
+}
+.m_close{
+    color: white;
+    font-size: x-large;
+    position:absolute;
+    left: 41%;
+    transform: translateY(10px);
+}
+.m_close2{
+    color: white;
+    font-size: x-large;
+    position:absolute;
+    left: 91%;
+    transform: translateY(10px);
+}
+.m_img3{
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+}
+@media (max-width:1025px){
+    .merch { height: 60vh;}
+}
+@media (max-width:800px){
+    .merch { height: 50vh;}
+}
+@media (max-width : 600px) {
+    .merch{
+        height: 57vh;
+        width: 80%;
+    }
+    .m_img3{
+        width: 65%;
+    }
+    .m_img1{
+        width: 60%;
+    }
+    .m_img2{
+        width: 55%;
+    }
+    .m_close{
+        left: 80%;
+    }
+    .m_close2{
+        left: 80%;
+    }
+}
+@media (max-width : 400px){
+    .merch {
+        height: 60vh;
+        /* padding-bottom: 10%; */
+   }
+    .m_img3{
+        width: 80%;
+    }
+    
+
+}
+@media (max-width : 320px){
+    .merch {
+        height: 50vh;
+        /* padding-bottom: 10%; */
+   }
+}
+.m_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.merch_btn1{
+    background-color: #9747FF;
+    transition: 1s ease-in;
+    padding: 10px;
+    color: white;
+    width:100px;
+    border-radius: 100px;
+}
+.merch_btn2{
+    background-color: white;
+    color: #9747FF;
+    transition: 1s ease-in;
+    padding: 10px;
+    border-radius: 100px;
+    width:100px;
+}
+.m_img4{
+    display: none;
+}
+.merch:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+    border: white solid 2px ;
+    border-radius: 50px;
+}
+
+.merch_show{
+    background-color: rgba(255, 255, 255, 0.249);
+    border: 2px white solid;
+    border-radius: 50px;
+}
+@media (min-width:1025px) {
+    .m_img1{
+        margin-left: 3%;
+        width: 20%;
+    }
+    .m_img2{
+        margin-left: 3%;
+        width:18%
+    }
+    .m_img3{
+        width: 65%;
+    }
+    .merch{
+        margin: 0 auto;
+        height: 60vh;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 5vh;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .m_close{
+        left: 37%;
+    }
+    .m_close2{
+        left: 37%;
+    }
+}

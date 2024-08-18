@@ -1,0 +1,41 @@
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* PhotoFrame.module.css */
+
+.photoFrame {
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  padding-bottom: 100%; /* Maintain aspect ratio 1:1 for square frames */
+  
+}
+.gridContainer .photoFrame{
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  padding-bottom: 50%; /* Maintain aspect ratio 1:1 for square frames */
+ 
+  
+}
+
+.photo img{
+  border-width: 12px 12px 35px 12px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-radius: 0;
+ 
+}
+
+
+
+
+
+
+
+

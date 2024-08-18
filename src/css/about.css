@@ -1,0 +1,129 @@
+.about{
+    width: 100vw;
+    position: relative;
+    z-index: 40;
+    min-height: 80vh;
+    padding-top: 5vh;
+    background-color: #0A0917;
+    color: white;
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Nunito Sans;
+}
+
+.title2{
+    font-family: Nunito Sans;
+}
+
+@media (max-width : 1050px){
+    .about{
+        min-height: 50vh;
+    }
+    .title2{
+        font-size: 3rem;
+    }
+}
+
+.info{
+    padding: 5%;
+    color: white;
+}
+.image{
+    margin-top: 15%;
+    height: 70%;
+    z-index: 100;
+    padding: 5%;
+}
+.title2 {
+    color: #817eff;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family:Nunito Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+.transition_theme{
+    background: #0A0917;
+    background: linear-gradient(0deg,  #22246A 0%, #0A0917 100%);
+    box-shadow: 1px 50px 60px 14px  #22246A;
+-webkit-box-shadow: 1px 50px 60px 14px  #22246A;
+-moz-box-shadow: 1px 50px 60px 14px  #22246A;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    left:-35.5%;
+}
+.image .video{
+    border-radius: 50px;
+    text-align: center;
+    height: 100%;
+    /* width: 90%; */
+    position: relative;
+    box-shadow: 0 0 30px 10px #7056D9;
+}
+
+@media (max-width:830px){
+    .about{
+        padding-top: 6vh;
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .vid_about{
+        /* width: 200vw; */
+        object-fit:cover;
+        transform: scale(0.9);
+        border-radius: 100px;
+    }
+    .close_btn{
+        top: 10%;
+        right: 10%;
+    }
+    .image{
+        margin-top: 0;
+    }
+
+    .transition_theme{
+        left: -6%;
+    }
+}
+
+.vid_about{
+    position: fixed;
+    top : 0;
+    z-index: 1000;
+}
+.muted{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100000;
+}
+.mute{
+    z-index: 100000;
+    color: aliceblue;
+    position: relative;
+    bottom: 30px;
+    right: -20px;
+}
+.close_btn{
+    font-weight: bolder;
+    font-size: xx-large;
+    color:  #d4d0d6;
+    position: fixed;
+    top: 80px;
+    right: 50px;
+    transform: scale(1.1);
+    z-index: 100000;
+}
+
+@media (max-width:830px){
+    .title2{
+        font-size: 3.5rem;
+    }
+}
